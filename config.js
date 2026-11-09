@@ -4,12 +4,12 @@
  * ce fichier est visible par tous les visiteurs.
  */
 window.PORTFOLIO_CONFIG = {
-  displayName: "AZ",           // Ex. : "Prénom NOM" (facultatif)
-  email: "aziel.donnang2002@gmail.com",                 // Ex. : "adresse.professionnelle@gmail.com"
-  githubUsername: "",        // Ex. : "mon-compte-github" (sans https://github.com/)
+  displayName: "azielo",                  // Facultatif
+  email: "aziel.donnang2002@gmail.com",              // À rendre publique uniquement si désiré
+  githubUsername: "aziel-dev",    // Identifiant seul
   projectUrls: {
-    ordinateurs: "",         // Ajouter uniquement une URL HTTPS PUBLIQUE
-    velos: "",               // Ne pas mettre un lien Tailscale Serve privé
-    soutien: ""
+    ordinateurs: "https://az-server.tail8f0b8d.ts.net/",
+    velos: "https://az-server.tail8f0b8d.ts.net:8443/",
+    soutien: "https://az-server.tail8f0b8d.ts.net:10000/"
   }
 };
