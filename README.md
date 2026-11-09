@@ -8,13 +8,13 @@ Ouvrir `config.js` dans un éditeur (VS Code, Bloc-notes) et modifier :
 
 ```js
 window.PORTFOLIO_CONFIG = {
-  displayName: "Prénom NOM",                  // Facultatif
-  email: "mon-adresse@gmail.com",              // À rendre publique uniquement si désiré
-  githubUsername: "MON_IDENTIFIANT_GITHUB",    // Identifiant seul
+  displayName: "azielo",                  // Facultatif
+  email: "aziel.donnang2002@gmail.com",              // À rendre publique uniquement si désiré
+  githubUsername: "aziel-dev",    // Identifiant seul
   projectUrls: {
-    ordinateurs: "",  // URL HTTPS publique seulement lorsque Funnel est activé
-    velos: "",
-    soutien: ""
+    ordinateurs: "https://az-server.tail8f0b8d.ts.net/",
+    velos: "https://az-server.tail8f0b8d.ts.net:8443/",
+    soutien: "https://az-server.tail8f0b8d.ts.net:10000/"
   }
 };
 ```
